@@ -4,10 +4,64 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
 <body>
-    
+    <section class="hero">
+        <nav>
+            <ul class="navMenu">
+                <ul>
+                    Products
+                    <li class="products">Rouge</li>
+                    <li class="products">Mascara</li>
+                    <li class="products">Hair Care</li>
+                </ul>
+                <li>Our Story</li>
+                <li>Contact Us</li>
+                <li>About Us</li>
+            </ul>
+            <div class="navIcon" onclick="navMenuFun()">
+                <i class="fa fa-bars"></i>
+            </div>
+        </nav>
+        <article>
+            <h1>Nova Cosmetics</h1>
+            <h1>Our Story</h1>
+            <p>At Nova Cosmetics, we believe in the power of natural beauty. Our mission is to create high-quality, natural products
+            that enhance your natural beauty and make you feel confident and empowered.</p>
+        </article>
+        
+        <h2>Our Producs</h2>
+
+    </section>
+    <section class="productsList">
+    <div class="makeup">
+        <div class="prd1">
+            <h2>Foundation</h2>
+            <img src="./Assets/images/foundation1.jpg" alt="foundation_">
+            <h4>Ultimate Matte Foundation</h4>
+            <button class="slide-fwd-center">See Product</button>
+
+        </div>
+        <br>
+        <div class="prd1">
+            <h2>Primer</h2>
+            <img src="./Assets/images/primer.jpg" alt="primer">
+            <h4>Poreless Primer Blurmax Pore-minimize Primer</h4>
+            <button>See Product</button>
+        </div>
+        <br>
+        <div class="prd1">
+            <h2>Powder</h2>
+            <img src="./Assets/images/Powder.jpg" alt="Powder">
+            <h4>Ultra Matte Press Powder</h4>
+            <button>See Product</button>
+        </div>
+    </div>
+</section>
+    <script src="./Assets/JavaScript/navMenuMobile.js"></script>
 </body>
 </html>

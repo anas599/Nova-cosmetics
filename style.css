@@ -1,0 +1,106 @@
+body {
+  color: antiquewhite;
+  font-family: 'Oswald';
+  margin: 0;
+  background-color: black;
+  background-repeat: no-repeat;
+}
+
+.hero {
+  text-align: center;
+  padding-bottom: 100px;
+  position: inherit;
+}
+
+h1 {
+  font-size: 30px;
+}
+
+.navMenu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: none;
+  flex-direction: column;
+  background-color: antiquewhite;
+}
+
+.navMenu li {
+  list-style-type: none;
+  color: black;
+}
+
+.navMenu.show {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+  margin-top: 70px;
+}
+
+.navIcon {
+  font-size: 50px;
+}
+
+.productsList {
+  display: flex;
+  width: 90vw;
+  margin: 0;
+}
+
+.prd1,
+.pdr2 {
+  display: flex;
+  width: 100vw;
+
+  /* border: 1px red solid; */
+  position: relative;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+img {
+  width: 80vw;
+  border: hsl(32deg 94% 86%) dotted 10px;
+  border-radius: 100%;
+}
+
+button {
+  border-radius: 10px;
+  font-size: medium;
+  width: fit-content;
+  height: 50px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  transition: all 0.4s ease-in-out;
+}
+
+button:hover {
+  background-color: #666;
+
+  /* inline-size:  35%; */
+
+  /* font-weight: 700; */
+}
+
+/* button:hover .slide-fwd-center {
+    animation: slide-fwd-center 0.45s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+} */
+
+/* @keyframes slide-fwd-center {
+    0% {
+        transform: translateZ(0);
+    }
+    100% {
+        transform: translateZ(160px);
+    }
+} */
+
+@media (min-width: 700px) {
+  img {
+    width: 25vw;
+  }
+}
